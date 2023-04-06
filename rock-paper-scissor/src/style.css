@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    margin: 20px;
+}
+
+.head {
+    text-align: center;
+
+    color: blueviolet;
+}
+
+.point {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin: 30px;
+    position: relative;
+
+    left: 350px;
+    padding: 15px;
+    background-color: blueviolet;
+    color: white;
+    font-size: medium;
+    text-decoration: double;
+    border: none;
+    width: 10vw;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.rbtn {
+
+    margin: 30px;
+    position: relative;
+
+    left: 550px;
+
+    padding: 15px;
+    background-color: blueviolet;
+    color: white;
+    font-size: medium;
+    text-decoration: double;
+    border: none;
+    width: 10vw;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-btn {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+@media only screen and (max-width: 400px) {
+    body {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .choice {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user-hand {
+        width: 100px;
+    }
+
+    .computer-hand {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+    }
+
+    .choice-user {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .choice-computer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-btn {
+        display: flex;
+        position: relative;
+        right: 170px;
+
+
+    }
+
+    .btn {
+        width: 17vw;
+        padding: 10px;
+        /* position:relative ;
+        right: 50px; */
+    }
+
+    .points {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
+
+}
